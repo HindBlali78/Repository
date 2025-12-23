@@ -4,7 +4,9 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install
 COPY . .
-RUN npm run lint
+RUN npm run lint:html
+RUN npm run lint:jsfix
+RUN npm run lint:js
 RUN npm run test
 
 FROM nginx:alpine

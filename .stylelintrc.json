@@ -1,6 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "color-hex-length": "short"
+    "color-hex-length": "short",
+    "no-descending-specificity": null
+    
+
   }
 }
