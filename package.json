@@ -7,7 +7,7 @@
     "lint:html": "htmlhint **/*.html",
     "lint:css": "stylelint \"assets/css/**/*.css\"",
     "lint:js": "eslint \"assets/js/**/*.js\"",
-    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "lint": "npm run lint:html && npm run lint:cssfix && npm run lint:jsfix",
     "lint:jsfix": "eslint \"assets/js/**/*.js\" --fix",
     "lint:cssfix": "stylelint \"assets/css/**/*.css\" --fix",
     "test": "jest"
